@@ -1,0 +1,5 @@
+{"name": "cpi-6m-autogluon", "domain": "macro", "engine": "autogluon",
+ "data": {"type": "fred", "series_id": "CPIAUCSL"},
+ "horizon": 6, "cv_windows": 2,
+ "params": {"presets": "fast_training"},
+ "budget": {"max_trials": 1, "max_cpus": 4, "timeout_minutes": 5}}

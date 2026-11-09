@@ -1,0 +1,5 @@
+{"name": "nyc-highs-kalshi", "domain": "weather", "engine": "baseline",
+ "data": {"type": "open_meteo", "latitude": 40.78, "longitude": -73.97,
+          "start": "2023-01-01", "end": "2026-11-01", "variable": "temperature_2m_max"},
+ "horizon": 1, "cv_windows": 30,
+ "kalshi": {"strike": 15.0, "direction": "above", "ticker": "KXHIGHNY (example, read-only)"}}

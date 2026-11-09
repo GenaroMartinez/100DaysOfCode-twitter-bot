@@ -1,0 +1,4 @@
+{"name": "wti-30d-raytune", "domain": "commodities", "engine": "ray_tune",
+ "data": {"type": "fred", "series_id": "DCOILWTICO"},
+ "horizon": 20, "cv_windows": 3,
+ "budget": {"max_trials": 32, "max_cpus": 4, "timeout_minutes": 10}}

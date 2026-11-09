@@ -1,0 +1,4 @@
+{"name": "btc-ma-cross", "domain": "crypto", "engine": "vectorbt",
+ "data": {"type": "coingecko", "coin": "bitcoin", "days": 365},
+ "params": {"strategy": "ma_cross", "fast_windows": [5, 10, 20], "slow_windows": [30, 50, 100],
+            "fees": 0.001, "select_by": "sharpe_ratio", "oos_fraction": 0.3}}

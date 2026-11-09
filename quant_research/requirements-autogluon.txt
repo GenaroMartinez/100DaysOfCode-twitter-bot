@@ -1,0 +1,4 @@
+# Isolated AutoGluon venv (Python 3.11). Pulls torch from PyPI (~5.8 GB with CUDA libs).
+autogluon.timeseries==1.6.3
+pyyaml==6.0.3
+requests==2.34.2

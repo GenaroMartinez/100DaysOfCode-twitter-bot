@@ -1,0 +1,6 @@
+{"name": "btc-7d-optuna", "domain": "crypto", "engine": "optuna",
+ "data": {"type": "coingecko", "coin": "bitcoin", "days": 365},
+ "horizon": 7, "cv_windows": 4,
+ "params": {"metric": "mase", "ensemble_top_k": 3},
+ "budget": {"max_trials": 40, "max_cpus": 1, "timeout_minutes": 5},
+ "kalshi": {"strike": 100000, "direction": "above"}}

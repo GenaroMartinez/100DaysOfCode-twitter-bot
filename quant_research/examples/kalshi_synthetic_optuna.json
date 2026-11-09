@@ -1,0 +1,6 @@
+{"name": "synthetic-kalshi-dryrun", "domain": "kalshi", "engine": "optuna",
+ "data": {"type": "synthetic", "n": 300, "seed": 7},
+ "horizon": 5, "cv_windows": 4,
+ "params": {"models": ["naive", "drift", "ets", "ridge_lags"]},
+ "budget": {"max_trials": 15, "max_cpus": 1, "timeout_minutes": 2},
+ "kalshi": {"strike": 0.5, "direction": "above"}}
