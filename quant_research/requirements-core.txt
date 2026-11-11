@@ -12,3 +12,10 @@ statsmodels==0.15.0
 pyyaml==6.0.3
 requests==2.34.2
 pytest==9.2.0
+# combination-engine additions (2026-11-11)
+xgboost==3.2.0
+lightgbm==4.7.0
+arch==8.0.0
+PyWavelets==1.9.0
+hmmlearn==0.3.3
+pyarrow==26.0.1

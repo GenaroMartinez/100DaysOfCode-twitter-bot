@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parent.parent
 
 DATA_DIR = Path(os.environ.get("QR_DATA_DIR", ROOT / "data")).resolve()
 JOBS_DB = Path(os.environ.get("QR_JOBS_DB", DATA_DIR / "jobs.db"))
+# Shared cache for downloaded raw data (outside git; safe to share across worktrees)
+RAW_DATA_DIR = Path(os.environ.get("QR_RAW_DIR", "/home/user/qrlab_data/raw")).resolve()
 ARTIFACT_DIR = Path(os.environ.get("QR_ARTIFACT_DIR", DATA_DIR / "artifacts"))
 MLFLOW_TRACKING_URI = os.environ.get(
     "MLFLOW_TRACKING_URI", f"sqlite:///{DATA_DIR / 'mlflow.db'}"
